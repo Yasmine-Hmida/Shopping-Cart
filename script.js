@@ -18,7 +18,7 @@ function increment_decrement(div){
     });
 };
 
-// Still a problem
+// Function to update the total cost
 function added(div){
     var button = div.querySelector(".submit_button");
     var price_for_one = parseFloat(div.querySelector(".price_for_one").textContent);
